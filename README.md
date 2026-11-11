@@ -87,17 +87,4 @@ TelcoChurnPrediction/
     └── Phase_1_Project_Proposal.docx
 ```
 
----
 
-## 🤖 6. AI Tools Disclosure
-
-Generative AI assistance was utilized during Phase 1 solely for initial brainstorming and refining the mining stack setup and architecture recommendations. All selected tools and frameworks are provisional and may be adapted in subsequent project phases as implementation requirements evolve.
-
----
-
-## 📚 7. Academic References
-
-1. **Amin, A., Shah, B., Khattak, A. M., et al. (2017).** "Cross-company customer churn prediction in telecommunication: a data-driven approach." *Information Sciences*, 385, 320–337. DOI: [10.1016/j.ins.2017.01.003](https://doi.org/10.1016/j.ins.2017.01.003)
-2. **Ahmad, A. K., Jafar, A., & Aljoumaa, D. (2019).** "Customer churn prediction in telecom using machine learning in big data platform." *Journal of Big Data*, 6(1), 28. DOI: [10.1186/s40537-019-0191-6](https://doi.org/10.1186/s40537-019-0191-6)
-3. **Miguéis, V. L., Camanho, A. S., & Falcão, F. (2013).** "Customer churn in telecommunications: The role of service usage and social networks." *Expert Systems with Applications*, 40(5), 1803–1810. DOI: [10.1016/j.eswa.2012.09.023](https://doi.org/10.1016/j.eswa.2012.09.023)
-4. **IBM Cognos Analytics (2018).** *Telco Customer Churn: Focused customer retention programs* [Data set]. Kaggle. [Link](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
