@@ -72,7 +72,7 @@ With class imbalance (~26.5% churn prevalence), high **Churn Recall ($\ge$ 0.80)
 TelcoChurnPrediction/
 ├── README.md                          # Executive repository documentation
 ├── Setup.py                           # Environment setup and dependencies verification
-├── Telco-Customer-Churn.csv           # IBM Telco raw benchmark dataset
-└── Applied Data Mining Project.docx   # Phase 1 Proposal & formal deliverable
+├── Telco-Customer-Churn.csv           # IBM Telco raw dataset
+└── Applied Data Mining Project.docx   # Phase 1 Proposal 
 ```
 
