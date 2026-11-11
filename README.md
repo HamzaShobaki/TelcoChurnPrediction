@@ -1,21 +1,19 @@
 # Telco Churn Prediction and Retention Intelligence System
 
-### Applied Data Mining (402333) — American University of Madaba (AUM)
+### Applied Data Mining — (AUM)
 
 ---
 
-## 👥 Team Information & Project Metadata
+## 👥 Team Information
 
-* **Institution:** American University of Madaba (AUM)
-* **Faculty:** Faculty of Information Technology
-* **Course:** Applied Data Mining (402333) — Fall Term 2026/2027
-* **Project Deliverable:** Phase 1 Proposal (Idea, Problem Statement, and Setup)
-* **Repository Link:** [https://github.com/HamzaShobaki/TelcoChurnPrediction](https://github.com/HamzaShobaki/TelcoChurnPrediction)
+- **Course:** Applied Data Mining
+- **Institution:** American University of Madaba (AUM)
+- **Deliverable:** Phase 1 Proposal (Idea, Problem Statement, and Setup)
 
-| Student Name | Student ID | Academic Email |
-| :--- | :--- | :--- |
-| **Hamza Shobaki** | 2410171 | *h.shobaki@aum.edu.jo* |
-| **Samer Abuzeineh** | 2410385 | *s.abuzeineh@aum.edu.jo* |
+| Student Name | Student ID |
+| :--- | :--- |
+| **Hamza Shobaki** | 2410171 |
+| **Samer Abuzeineh** | 2410385 |
 
 ---
 
@@ -26,8 +24,8 @@ In the telecommunications sector, intense competition and minimal switching barr
 Conventional retention operations rely primarily on reactive win-back efforts initiated after a cancellation request is already submitted. By developing an automated early-warning predictive system using machine learning classification, telecom operators can identify attrition indicators weeks before contract termination.
 
 ### Target Users & Operational Context
-* **Customer Retention Specialists & Call Center Agents:** Consume individual churn risk probability scores to offer targeted incentives (e.g., speed upgrades, contract discounts).
-* **Marketing Campaign Managers:** Restructure vulnerable package offerings (e.g., month-to-month contracts and electronic check billing).
+- **Customer Retention Specialists & Call Center Agents:** Consume individual churn risk probability scores to offer targeted incentives (e.g., speed upgrades, contract discounts).
+- **Marketing Campaign Managers:** Restructure vulnerable package offerings (e.g., month-to-month contracts and electronic check billing).
 
 ---
 
@@ -43,9 +41,9 @@ With class imbalance (~26.5% churn prevalence), high **Churn Recall ($\ge$ 0.80)
 
 ## 📊 3. Data Mining Task & Schema Architecture
 
-* **Primary Task:** Supervised Binary Classification (`Churn`: Yes / No).
-* **Dataset Benchmark:** IBM Telco Customer Churn dataset (7,043 subscriber records, 21 features).
-* **Target Feature Distribution:**
+- **Primary Task:** Supervised Binary Classification (`Churn`: Yes / No).
+- **Dataset Benchmark:** IBM Telco Customer Churn dataset (7,043 subscriber records, 21 features).
+- **Target Feature Distribution:**
   * **Class 1 (Churn = Yes):** 1,869 subscribers (26.54%)
   * **Class 0 (Churn = No):** 5,174 subscribers (73.46%)
 
@@ -62,29 +60,19 @@ With class imbalance (~26.5% churn prevalence), high **Churn Recall ($\ge$ 0.80)
 
 ## 🛠️ 4. Technology Stack & Infrastructure
 
-* **Compute & Distributed ETL:** Databricks Community Edition with PySpark 3.x and Apache Spark SQL.
-* **Storage Layer:** Delta Lake (Parquet format) for ACID transactions, schema enforcement, and time-travel history.
-* **Machine Learning Frameworks:** Python 3.10+, Scikit-Learn 1.3+ (Pipelines, Decision Trees), `imbalanced-learn` (SMOTE), and XGBoost.
-* **Experiment Tracking & MLOps:** MLflow for hyperparameter logging and model metric tracking.
+- **Compute & Distributed ETL:** Databricks Community Edition with PySpark 3.x and Apache Spark SQL.
+- **Storage Layer:** Delta Lake (Parquet format) for ACID transactions, schema enforcement, and time-travel history.
+- **Machine Learning Frameworks:** Python 3.10+, Scikit-Learn 1.3+ (Pipelines, Decision Trees), `imbalanced-learn` (SMOTE), and XGBoost.
+- **Experiment Tracking & MLOps:** MLflow for hyperparameter logging and model metric tracking.
 
 ---
 
 ## 📂 5. Repository Directory Layout
-
 ```
 TelcoChurnPrediction/
-├── README.md                      # Executive repository documentation
-├── requirements.txt               # Dependencies list
-├── .gitignore                     # Git exclusion rules
-├── data/                          # Data files & schemas
-│   ├── raw/                       # IBM Telco raw dataset
-│   └── delta_schema/              # Data warehouse tables
-├── notebooks/                     # Project Jupyter / Databricks Notebooks
-│   ├── Phase1_Stack_Setup.ipynb   # Environment verification & Spark setup
-│   ├── Phase2_EDA_Cleaning.ipynb  # Preprocessing & Data Warehousing
-│   └── Phase3_Model_Tuning.ipynb  # ML Training, SMOTE & Evaluation
-└── reports/                       # Formal submission documents
-    └── Phase_1_Project_Proposal.docx
+├── README.md                          # Executive repository documentation
+├── Setup.py                           # Environment setup and dependencies verification
+├── Telco-Customer-Churn.csv           # IBM Telco raw benchmark dataset
+└── Applied Data Mining Project.docx   # Phase 1 Proposal & formal deliverable
 ```
-
 
